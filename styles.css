@@ -7,3 +7,12 @@
 .gallery img{width:100%;height:200px;object-fit:cover;border-radius:10px;cursor:pointer}
 .footer{padding:20px;text-align:center;color:#666;font-size:14px;margin-top:18px}
 @media(max-width:700px){.gallery img{height:140px}}
+/* Reduce piggy bank image size */
+.product-img {
+  width: 70%;
+  max-width: 240px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 12px;
+}
