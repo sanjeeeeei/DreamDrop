@@ -1,0 +1,10 @@
+
+.menu-panel { position: fixed; top:0; right:0; width:78%; max-width:360px; height:100%; background:#fff; box-shadow:-8px 0 30px rgba(18,35,60,0.08); transform:translateX(100%); transition:transform .32s ease; z-index:9999; padding:18px; overflow-y:auto; }
+.menu-panel.open { transform: translateX(0); }
+#menuOverlay { position: fixed; inset:0; background: rgba(0,0,0,0.32); display:none; z-index:9998; }
+.sticky-whatsapp, .sticky-instagram { position: fixed; right: 16px; width:62px; height:62px; border-radius:12px; display:flex; align-items:center; justify-content:center; box-shadow:0 10px 30px rgba(0,0,0,0.12); z-index:9997; }
+.sticky-whatsapp { bottom:16px; } .sticky-instagram { bottom:90px; }
+.header-icons img.menu-toggle { width:28px; height:28px; cursor:pointer; }
+.btn{background:#5A8DEE;color:#fff;padding:8px 12px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block}
+.topbar{background:linear-gradient(90deg,#5A8DEE,#76a8ff);padding:12px 18px;display:flex;align-items:center;justify-content:space-between;color:#fff;position:sticky;top:0;z-index:60}
+.brand{font-weight:800;font-size:20px}

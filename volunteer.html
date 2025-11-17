@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Volunteer - Dream Drop</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="menu.css"></head><body>
+<div class="topbar"><div class="brand">Volunteer</div><div class="header-icons"><img src="menu.svg" class="menu-toggle" onclick="toggleMenu()" alt="menu"></div></div>
+<main class="container">
+  <form class="card" method="POST" action="https://formspree.io/f/xyzlbjva">
+    <h1>Volunteer Registration</h1>
+    <input type="hidden" name="_redirect" value="thanks.html">
+    <label>Name</label><input name="Name" required style="width:100%;padding:10px;margin-top:6px"><br>
+    <label>Phone</label><input name="Phone" required style="width:100%;padding:10px;margin-top:6px"><br>
+    <label>Email</label><input name="Email" style="width:100%;padding:10px;margin-top:6px"><br>
+    <label>Role</label>
+    <select name="Role" required style="width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid #ccc">
+      <option value="" disabled selected>Select your role</option>
+      <option value="Food Donor">Food Donor</option>
+      <option value="Meal Distributor">Meal Distributor</option>
+      <option value="Event Volunteer">Event Volunteer</option>
+      <option value="Student Coordinator">Student Coordinator</option>
+      <option value="Social Media Helper">Social Media Helper</option>
+    </select><br><br>
+    <label>Message</label><textarea name="Message" style="width:100%;padding:10px;margin-top:6px"></textarea><br>
+    <p><button class="btn" type="submit">Submit</button></p>
+  </form>
+</main>
+<a class="sticky-instagram" href="https://instagram.com/dreamdroppofficial" target="_blank"><img src="instagram.png" alt="Instagram" style="width:42px;height:42px;"></a>
+<a class="sticky-whatsapp" href="https://wa.me/918838535558" target="_blank"><img src="whatsapp.png" alt="WhatsApp" style="width:42px;height:42px;"></a>
+<script src="main.js"></script><script src="menu.js"></script></body></html>
